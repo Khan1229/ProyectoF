@@ -95,9 +95,9 @@
                 <div v-for="producto in cart" :key="producto.id" class="containerInfoItemsCocina">
 
                     <div class="infoCocina">
-                        <h2>Nombre: {{ producto.ingrediente }}</h2>
-                        <h2>Precio:S/{{ producto.precio }}</h2>
-                        <h2>Cantidad:1</h3>
+                        <div class="separar"><h2>Nombre: {{ producto.ingrediente }}</h2></div>
+                        <div class="separar"><h2>Precio:S/{{ producto.precio }}</h2></div>
+                        <div class="separar"><h2>Cantidad:1</h3></div>
                     </div>
                     <div class="estado">
 
